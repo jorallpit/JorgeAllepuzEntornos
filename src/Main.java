@@ -19,6 +19,7 @@ public class Main {
             if (i%10==0) System.out.println();
             System.out.print(vector[i]+"\t");
         }
+        System.out.println("Primera refactorización");
 
     }
 }
