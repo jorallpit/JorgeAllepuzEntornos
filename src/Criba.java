@@ -32,7 +32,7 @@ public class Criba {
      *              <li>false si el numero num no es primo.</li>
      *</ul>
      */
-    private static boolean esPrimo(int num){
+    public static boolean esPrimo(int num){
         for (int i = 2; i <= Math.sqrt(num); i++){
             if (num % i == 0){
                 return false;
